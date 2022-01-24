@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "c58ecdc4-5684-41ef-ab8e-436c920c26a1",
+		"name": "assestment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/updateRecord?id=5&name=LatestItem5&description=LatestDesc5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/viewRecord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"viewRecord"
+					]
+				},
+				"description": "Update Record"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Record",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/updateRecord?id=5&name=LatestItem5&description=LatestDesc5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"updateRecord"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						},
+						{
+							"key": "name",
+							"value": "LatestItem5"
+						},
+						{
+							"key": "description",
+							"value": "LatestDesc5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View All Record",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/viewRecord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"viewRecord"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Record By Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getRecordById/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getRecordById",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Multiple Records",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    },\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addRecords",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addRecords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Record",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"name\":\"Item1\",\r\n    \"description\":\"Desc1\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addRecord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addRecord"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
